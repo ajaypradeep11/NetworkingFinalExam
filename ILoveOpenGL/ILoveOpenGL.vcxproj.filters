@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{df1bac7f-a7c2-40db-a31b-19141363b6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{97271fe8-145c-40c2-ad0b-eba0201aa77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{1ec42f94-d5b2-4551-b7d7-4819e0f63e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{a9405f2c-fa1e-4829-8652-592c008be91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{c95199ec-e234-4186-9de7-d8481abf3a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{295dd838-eda8-472e-8630-e53ad2e79fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{bdf574ae-85b3-4192-8205-19a43873f561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{01d0e22c-839c-49f7-a1d5-4b749ef06849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cWinContextMenu %28win32%29">
+      <UniqueIdentifier>{ce1c59e7-1dca-49eb-857c-442b98aca4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureMapping">
+      <UniqueIdentifier>{68ebe843-cffa-452b-9e7e-c0e3dfe2a156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Pattern">
+      <UniqueIdentifier>{92c5d0ce-2f47-4d1f-ae83-b8b7c50724a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe">
+      <UniqueIdentifier>{3d657887-4d5c-4579-9719-9a92c221d56e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics">
+      <UniqueIdentifier>{1b4cd487-ca57-45f0-9d04-3485db5f1a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics\contact">
+      <UniqueIdentifier>{66c8ab54-1fd8-4866-b444-e55f8f148d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics\constraints">
+      <UniqueIdentifier>{06230513-433d-438d-ae16-3a0f4eae9576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\TicTacToe">
+      <UniqueIdentifier>{c8e75d17-38c7-4ab5-a977-8348b2ce4b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics\world">
+      <UniqueIdentifier>{7b8a6db5-6854-4722-ba5f-afe96b7996b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics\force">
+      <UniqueIdentifier>{73011c19-f1e4-43da-ab67-eeda5152d6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics\resolver">
+      <UniqueIdentifier>{d1ca2113-615d-4571-881a-da361749857a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TicTacToe\Physics\particle">
+      <UniqueIdentifier>{4bf9fb40-87f9-49a9-8dc2-fdb3d806e95a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtoBuffer">
+      <UniqueIdentifier>{c7c15810-596b-404c-b416-cdac45d8a0fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="theMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="theMainOnlyBlackScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Load3DModels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlyCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGFLWKeyboardModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cWinContextMenu.cpp">
+      <Filter>cWinContextMenu %28win32%29</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="cXOFactory.cpp">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="cXOPlayer.cpp">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameManager.cpp">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleConstraint.cpp">
+      <Filter>TicTacToe\Physics\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleWorld.cpp">
+      <Filter>TicTacToe\Physics\world</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleForceRegistry.cpp">
+      <Filter>TicTacToe\Physics\force</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleContactResolver.cpp">
+      <Filter>TicTacToe\Physics\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticlePlaneContact.h">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticlePlaneContact.cpp">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleParticleContact.cpp">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>TicTacToe\Physics\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cWeaponPhysics.cpp">
+      <Filter>TicTacToe\Physics\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleContact.cpp">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="cSwing.cpp">
+      <Filter>TicTacToe\Physics\constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageEncapsule.pb.cc">
+      <Filter>ProtoBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientReq.pb.cc">
+      <Filter>ProtoBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlyCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="iCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="cWinContextMenu.h">
+      <Filter>cWinContextMenu %28win32%29</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="iWeapon.h">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeapon.h">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="cXOFactory.h">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="cXOPlayer.h">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameManager.h">
+      <Filter>TicTacToe\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="cTicTacToe.h">
+      <Filter>TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="iParticleContactGenerator.h">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleConstraint.h">
+      <Filter>TicTacToe\Physics\constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="iGameObject.h">
+      <Filter>TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleWorld.h">
+      <Filter>TicTacToe\Physics\world</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleForceRegistry.h">
+      <Filter>TicTacToe\Physics\force</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleContactResolver.h">
+      <Filter>TicTacToe\Physics\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleParticleContact.h">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>TicTacToe\Physics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cWeaponPhysics.h">
+      <Filter>TicTacToe\Physics\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleContact.h">
+      <Filter>TicTacToe\Physics\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="iForceGenerator.h">
+      <Filter>TicTacToe\Physics\force</Filter>
+    </ClInclude>
+    <ClInclude Include="cSwing.h">
+      <Filter>TicTacToe\Physics\constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageEncapsule.pb.h">
+      <Filter>ProtoBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClientReq.pb.h">
+      <Filter>ProtoBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\fragShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\vertShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="config.json" />
+  </ItemGroup>
+</Project>

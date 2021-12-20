@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package protoAuth;
+
+message GameClientReq
+{
+	required eMessageType id = 1;
+	required int32 iValue = 2;
+	required int32 jValue = 3;
+
+
+   	enum eMessageType {
+		GAMEWON = 0;
+		GAMELOST = 1;
+		HIT = 2;
+		NOTHIT= 3;
+		PLAYER1TURN = 4;
+		PLAYER2TURN = 5;
+  	}
+	
+}

@@ -1,0 +1,66 @@
+{
+  "Language": "English",
+  "Name": "Ajay",
+  "resolution": {
+    "height": "1920",
+    "width": "1080"
+  },
+  "XOPosition": {
+    "x": "-1690",
+    "y": "-45",
+    "z": "100",
+    "heigthDiff": "0",
+    "heightWidth": "300"
+  },
+  "CameraLocation": {
+    "x": "-1990",
+    "y": "-340",
+    "z": "-2250"
+  },
+  "WeaponSetup": {
+    "Accelerationy": "-9.8",
+    "EnergyAcceleration": "0.0",
+    "Speed": "2000",
+    "Damping": "0.97",
+    "Mass": "10",
+    "Radius": "1.5",
+    "GroundHeight": "-820",
+    "Directionx": "0",
+    "Directiony": "1",
+    "Directionz": "0",
+    "Directionw": "1"
+  },
+  "Light": {
+    "Positionx": "-3500",
+    "Positiony": "-1280",
+    "Positionz": "-600",
+    "Diffusex": "4.0",
+    "Diffusey": "4.0",
+    "Diffusez": "4.0",
+    "Paramx": "0",
+    "Paramy": "90",
+    "Paramz": "10",
+    "Atteny": "0.0000001",
+    "Attenz": "0.0000001",
+    "Directionx": "0.0",
+    "Directiony": "0.0",
+    "Directionz": "0.0",
+    "Set1F": "1.0"
+  },
+  "Meshname": {
+    "BasePly": "tictactoe.ply",
+    "PlanePly": "plane.ply",
+    "OPly": "ticO.ply",
+    "XPly": "ticX.ply",
+    "SpherePly": "sphere.ply"
+  },
+  "detectValues": {
+    "x1": "-1800",
+    "y1": "-100",
+    "x2": "-1500",
+    "y2": "80",
+    "z": "-400",
+    "addonx": "-400",
+    "addony": "-380"
+  }
+} 

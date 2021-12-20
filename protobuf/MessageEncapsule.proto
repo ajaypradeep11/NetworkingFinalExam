@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package protoAuth;
+
+message MessageEncapsule
+{
+	required eMessageType type = 1;
+	required string data = 2;
+	
+   	enum eMessageType {
+		PLAYER1 = 0;
+		PLAYER2 = 1;
+  	}
+	
+}
